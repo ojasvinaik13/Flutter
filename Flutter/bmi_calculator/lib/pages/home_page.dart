@@ -1,3 +1,4 @@
+import 'package:bmi_calculator/constants.dart';
 import 'package:flutter/material.dart';
 import '../components/custom_card.dart';
 
@@ -21,10 +22,30 @@ class _HomePageState extends State<HomePage> {
                 Expanded(
                   child: CustomCard(
                     onPress: (){},
-                     
-                  )),
+                    colour: activeCardColour,
+                  )
+                  ),
+                  Expanded(
+                  child: CustomCard(
+                    onPress: (){},
+                    colour: activeCardColour,
+                  )
+                  ),
               ]
-            ),)
+            ),
+            ),
+            Expanded(
+              child: CustomCard(
+                colour: activeCardColour,
+              ),
+            ),
+            Expanded(
+              child:Row(
+                children: <Widget>[
+                  Expanded(child: CustomCard(colour: activeCardColour)),
+                  Expanded(child: CustomCard(colour: activeCardColour))
+                ],)
+            ),
         ],
       ),
     );
