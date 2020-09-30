@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 
 class CustomCard extends StatelessWidget {
-  CustomCard({@required this.colour, this.childCard, this.onPress});
+  CustomCard({@required this.colour, this.childCard, this.onClick});
 
   final Color colour;
   final Widget childCard;
-  final Function onPress;
+  final Function onClick;
 
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: onPress,
+      onTap: onClick,
       child: Container(
         child: childCard,
         margin: EdgeInsets.all(15.0),

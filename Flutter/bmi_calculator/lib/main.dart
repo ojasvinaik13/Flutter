@@ -9,8 +9,8 @@ class BmiCalculator extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData.dark().copyWith(
-        primaryColor: Color(0xFF0A0E21),
-        scaffoldBackgroundColor: Color(0xFF0A0E21),
+        primaryColor: Color(0xFF41cbc7),
+        scaffoldBackgroundColor: Color(0xFF41cbc7),
       ),
       home: HomePage(),
     );

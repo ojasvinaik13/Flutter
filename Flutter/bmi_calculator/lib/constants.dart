@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
 const bottomContainer = 80.0;
-const activeCardColour = Color(0xFF1D1E33);
-const inactiveCardColour = Color(0xFF111328);
+const activeCardColour = Color(0xFF4ca2d0);
+const inactiveCardColour = Color(0xFF4975aa);
 const bottomContainerColour = Color(0xFFEB1555);
 
 const labelStyle = TextStyle(
   fontSize: 18.0,
-  color: Color(0xFF8D8E98),
+  color: Color(0xFFffffff),
 );
 
 const numberStyle = TextStyle(
